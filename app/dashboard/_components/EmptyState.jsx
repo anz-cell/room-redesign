@@ -6,7 +6,7 @@ import React from 'react'
 const EmptyState = () => {
   return (
     <div className='flex items-center justify-between mt-10 flex-col'>
-        <Image src={'/placeholder.png'} width={200} height={200}/>
+        <Image src={'/placeholder.png'} width={200} height={200} alt='placeholder'/>
         <h2 className='font-medium text-lg text-gray-500'>Create New AI Interior Design for your room</h2>
         <Link href={'/dashboard/create-new'}>
         <Button className='mt-5'>+ Redesign Room</Button>
